@@ -1,9 +1,9 @@
 body {
 	color: rgb(100,100,100);
-	background: url("images/self_portrait.jpg");
-	background-size: cover;
 	font-family: "Helvetica", sans-serif;
 	font-size: 14px;
+	background: url("https://yohanakristi.github.io/unit_3/images/self_portrait.jpg");
+	background-size: cover;
 }
 
 #slogan {
