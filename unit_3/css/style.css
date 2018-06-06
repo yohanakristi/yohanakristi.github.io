@@ -1,0 +1,27 @@
+body {
+	color: rgb(100,100,100);
+	background: url("images/self_portrait.jpg");
+	background-size: cover;
+	font-family: "Helvetica", sans-serif;
+	font-size: 14px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: "Impact", fantasy;
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: rgb(120,120,120);
+}
+
+#mainpage {
+	height: 200px;
+    width: 200px;
+	padding-top: 10%;
+    padding-left: 50%;
+}
