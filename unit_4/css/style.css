@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel|Mystery+Quest);
+
+body {
+	color: rgb(100,100,100);
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+	background: url("https://yohanakristi.github.io/unit_3/images/self_portrait.jpg");
+	background-size: cover;
+}
+
+#slogan {
+	font-size: 1.5em;
+}
+
+h1 {
+	font-family: cinzel, Garamound, serif;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: rgb(120,120,120);
+	letter-spacing: 0.2em
+}
+
+#mainpage {
+	height: 200px;
+    width: 200px;
+	padding-top: 10%;
+    padding-left: 50%;
+}
