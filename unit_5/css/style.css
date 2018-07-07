@@ -1,0 +1,64 @@
+
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
+
+body {
+	font-size: 28px;
+	font-family: Amatic SC, garamound, sans-serif;
+}
+
+h1 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: normal;
+	color: black;
+	letter-spacing: 0.2em
+}
+
+header {
+	background: url("https://yohanakristi.github.io/unit_5/images/self_portrait.png");
+	background-size: cover;
+	background-position: auto;
+	height: 200px;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+
+main {
+	padding: 5em;
+}
+
+#title {
+	margin: auto;
+	padding: 2em;
+	text-align: center;
+	background: rgba(255,255,255,.8);
+	width: 15em;
+
+}
+
+.main {
+	display: block;
+	border: 0.1em red solid;
+	padding: 0 auto;
+}
+
+.plus {
+	width: 225px;
+	height: 225px;
+	background: url("https://yohanakristi.github.io/unit_5/images/plus.png");
+	display: inline-block;
+	border: 0.1em yellow solid;
+	margin: 0 auto;
+}
+
+.maintextbox {
+	width: 225px;
+	height: 225px;
+	border: 0.1em grey solid;
+	display: inline-block;
+	background: #E8E8E8;
+	text-align: center;
+	margin: 0 auto;
+	padding: auto;
+}
