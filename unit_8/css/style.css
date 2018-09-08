@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+
+
+
+
+body {
+	font-size: 40px;
+	font-family: Amatic SC, serif;
+	background: url("https://yohanakristi.github.io/unit_8/images/background.png");
+}
+
+header {
+	background: white;
+	width: 80%;
+	margin: .25em auto;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#yohana {
+	margin: auto;
+	text-align: center;
+	color: black;
+	font-size: 3em;
+}
+
+
+.main {
+	display: block;
+}
+
+#boxes {
+    margin: auto;
+    background: white;
+    width: 80%;
+    margin: auto;
+}
+
+#box1 {
+    border: 1px black solid;
+    float: left;
+    width: 7em;
+    height: 7em;
+    margin: 2em;
+    font-size: .75em;
+    text-align: center;
+    background: url("https://yohanakristi.github.io/unit_8/images/lily.png");
+    background-size: cover;
+}
+
+#box2 {
+    border: 1px black solid;
+    float: left;
+    width: 7em;
+    height: 7em;
+    margin: 2em;
+    font-size: .75em;
+    text-align: center;
+    background: url("https://yohanakristi.github.io/unit_8/images/poppy.png");
+    background-size: cover;
+}
+
+#box3 {
+    border: 1px black solid;
+    float: left;
+    width: 7em;
+    height: 7em;
+    margin: 2em;
+    font-size: .75em;
+    text-align: center;
+    background: url("https://yohanakristi.github.io/unit_8/images/chrysantemum.png");
+    background-size: cover;
+}
+
+.textinbox {
+	margin: auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	display: block;
+	margin: auto;
+    background: white;
+    width: 80%;
+    margin: .25em auto;
+    font-size: .75em;
+    text-align: center;
+    padding: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+	#box1, #box2, #box3 {
+		float: none;
+		margin: 1em auto;
+	}
+
+@media screen and (max-width: 480px) {
+	#yohana {
+		font-size: 2em;
+	}
+
